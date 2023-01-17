@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80CA2DF296E507800A50F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA2DE296E507800A50F39 /* AppDelegate.swift */; };
+		C80CA2E1296E507800A50F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA2E0296E507800A50F39 /* SceneDelegate.swift */; };
+		C80CA2E3296E507800A50F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA2E2296E507800A50F39 /* ViewController.swift */; };
+		C80CA2E6296E507800A50F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80CA2E4296E507800A50F39 /* Main.storyboard */; };
+		C80CA2E8296E507A00A50F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80CA2E7296E507A00A50F39 /* Assets.xcassets */; };
+		C80CA2EB296E507A00A50F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80CA2E9296E507A00A50F39 /* LaunchScreen.storyboard */; };
+		C80CA2F6296E507A00A50F39 /* LanAppProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA2F5296E507A00A50F39 /* LanAppProjTests.swift */; };
+		C80CA300296E507A00A50F39 /* LanAppProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA2FF296E507A00A50F39 /* LanAppProjUITests.swift */; };
+		C80CA302296E507A00A50F39 /* LanAppProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA301296E507A00A50F39 /* LanAppProjUITestsLaunchTests.swift */; };
+		C80CA313296E655E00A50F39 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA312296E655E00A50F39 /* ChatViewController.swift */; };
+		C80CA317296E6C5500A50F39 /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CA316296E6C5500A50F39 /* CookViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80CA2F2296E507A00A50F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80CA2D3296E507800A50F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80CA2DA296E507800A50F39;
+			remoteInfo = LanAppProj;
+		};
+		C80CA2FC296E507A00A50F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80CA2D3296E507800A50F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80CA2DA296E507800A50F39;
+			remoteInfo = LanAppProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80CA2DB296E507800A50F39 /* LanAppProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanAppProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80CA2DE296E507800A50F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80CA2E0296E507800A50F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C80CA2E2296E507800A50F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80CA2E5296E507800A50F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80CA2E7296E507A00A50F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80CA2EA296E507A00A50F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80CA2EC296E507A00A50F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80CA2F1296E507A00A50F39 /* LanAppProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanAppProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80CA2F5296E507A00A50F39 /* LanAppProjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanAppProjTests.swift; sourceTree = "<group>"; };
+		C80CA2FB296E507A00A50F39 /* LanAppProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanAppProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80CA2FF296E507A00A50F39 /* LanAppProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanAppProjUITests.swift; sourceTree = "<group>"; };
+		C80CA301296E507A00A50F39 /* LanAppProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanAppProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C80CA312296E655E00A50F39 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C80CA316296E6C5500A50F39 /* CookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80CA2D8296E507800A50F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2EE296E507A00A50F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2F8296E507A00A50F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80CA2D2296E507800A50F39 = {
+			isa = PBXGroup;
+			children = (
+				C80CA2DD296E507800A50F39 /* LanAppProj */,
+				C80CA2F4296E507A00A50F39 /* LanAppProjTests */,
+				C80CA2FE296E507A00A50F39 /* LanAppProjUITests */,
+				C80CA2DC296E507800A50F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80CA2DC296E507800A50F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80CA2DB296E507800A50F39 /* LanAppProj.app */,
+				C80CA2F1296E507A00A50F39 /* LanAppProjTests.xctest */,
+				C80CA2FB296E507A00A50F39 /* LanAppProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80CA2DD296E507800A50F39 /* LanAppProj */ = {
+			isa = PBXGroup;
+			children = (
+				C80CA2DE296E507800A50F39 /* AppDelegate.swift */,
+				C80CA2E0296E507800A50F39 /* SceneDelegate.swift */,
+				C80CA2E2296E507800A50F39 /* ViewController.swift */,
+				C80CA2E4296E507800A50F39 /* Main.storyboard */,
+				C80CA316296E6C5500A50F39 /* CookViewController.swift */,
+				C80CA312296E655E00A50F39 /* ChatViewController.swift */,
+				C80CA2E7296E507A00A50F39 /* Assets.xcassets */,
+				C80CA2E9296E507A00A50F39 /* LaunchScreen.storyboard */,
+				C80CA2EC296E507A00A50F39 /* Info.plist */,
+			);
+			path = LanAppProj;
+			sourceTree = "<group>";
+		};
+		C80CA2F4296E507A00A50F39 /* LanAppProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80CA2F5296E507A00A50F39 /* LanAppProjTests.swift */,
+			);
+			path = LanAppProjTests;
+			sourceTree = "<group>";
+		};
+		C80CA2FE296E507A00A50F39 /* LanAppProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C80CA2FF296E507A00A50F39 /* LanAppProjUITests.swift */,
+				C80CA301296E507A00A50F39 /* LanAppProjUITestsLaunchTests.swift */,
+			);
+			path = LanAppProjUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80CA2DA296E507800A50F39 /* LanAppProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80CA305296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProj" */;
+			buildPhases = (
+				C80CA2D7296E507800A50F39 /* Sources */,
+				C80CA2D8296E507800A50F39 /* Frameworks */,
+				C80CA2D9296E507800A50F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanAppProj;
+			productName = LanAppProj;
+			productReference = C80CA2DB296E507800A50F39 /* LanAppProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80CA2F0296E507A00A50F39 /* LanAppProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80CA308296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProjTests" */;
+			buildPhases = (
+				C80CA2ED296E507A00A50F39 /* Sources */,
+				C80CA2EE296E507A00A50F39 /* Frameworks */,
+				C80CA2EF296E507A00A50F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80CA2F3296E507A00A50F39 /* PBXTargetDependency */,
+			);
+			name = LanAppProjTests;
+			productName = LanAppProjTests;
+			productReference = C80CA2F1296E507A00A50F39 /* LanAppProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C80CA2FA296E507A00A50F39 /* LanAppProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80CA30B296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProjUITests" */;
+			buildPhases = (
+				C80CA2F7296E507A00A50F39 /* Sources */,
+				C80CA2F8296E507A00A50F39 /* Frameworks */,
+				C80CA2F9296E507A00A50F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80CA2FD296E507A00A50F39 /* PBXTargetDependency */,
+			);
+			name = LanAppProjUITests;
+			productName = LanAppProjUITests;
+			productReference = C80CA2FB296E507A00A50F39 /* LanAppProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80CA2D3296E507800A50F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C80CA2DA296E507800A50F39 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C80CA2F0296E507A00A50F39 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C80CA2DA296E507800A50F39;
+					};
+					C80CA2FA296E507A00A50F39 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C80CA2DA296E507800A50F39;
+					};
+				};
+			};
+			buildConfigurationList = C80CA2D6296E507800A50F39 /* Build configuration list for PBXProject "LanAppProj" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80CA2D2296E507800A50F39;
+			productRefGroup = C80CA2DC296E507800A50F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80CA2DA296E507800A50F39 /* LanAppProj */,
+				C80CA2F0296E507A00A50F39 /* LanAppProjTests */,
+				C80CA2FA296E507A00A50F39 /* LanAppProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80CA2D9296E507800A50F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CA2EB296E507A00A50F39 /* LaunchScreen.storyboard in Resources */,
+				C80CA2E8296E507A00A50F39 /* Assets.xcassets in Resources */,
+				C80CA2E6296E507800A50F39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2EF296E507A00A50F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2F9296E507A00A50F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80CA2D7296E507800A50F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CA2E3296E507800A50F39 /* ViewController.swift in Sources */,
+				C80CA317296E6C5500A50F39 /* CookViewController.swift in Sources */,
+				C80CA2DF296E507800A50F39 /* AppDelegate.swift in Sources */,
+				C80CA313296E655E00A50F39 /* ChatViewController.swift in Sources */,
+				C80CA2E1296E507800A50F39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2ED296E507A00A50F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CA2F6296E507A00A50F39 /* LanAppProjTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80CA2F7296E507A00A50F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CA300296E507A00A50F39 /* LanAppProjUITests.swift in Sources */,
+				C80CA302296E507A00A50F39 /* LanAppProjUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80CA2F3296E507A00A50F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80CA2DA296E507800A50F39 /* LanAppProj */;
+			targetProxy = C80CA2F2296E507A00A50F39 /* PBXContainerItemProxy */;
+		};
+		C80CA2FD296E507A00A50F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80CA2DA296E507800A50F39 /* LanAppProj */;
+			targetProxy = C80CA2FC296E507A00A50F39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80CA2E4296E507800A50F39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80CA2E5296E507800A50F39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80CA2E9296E507A00A50F39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80CA2EA296E507A00A50F39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80CA303296E507A00A50F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80CA304296E507A00A50F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80CA306296E507A00A50F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LanAppProj/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80CA307296E507A00A50F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LanAppProj/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C80CA309296E507A00A50F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanAppProj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanAppProj";
+			};
+			name = Debug;
+		};
+		C80CA30A296E507A00A50F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanAppProj.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanAppProj";
+			};
+			name = Release;
+		};
+		C80CA30C296E507A00A50F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanAppProj;
+			};
+			name = Debug;
+		};
+		C80CA30D296E507A00A50F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LanAppProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanAppProj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80CA2D6296E507800A50F39 /* Build configuration list for PBXProject "LanAppProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80CA303296E507A00A50F39 /* Debug */,
+				C80CA304296E507A00A50F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80CA305296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80CA306296E507A00A50F39 /* Debug */,
+				C80CA307296E507A00A50F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80CA308296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80CA309296E507A00A50F39 /* Debug */,
+				C80CA30A296E507A00A50F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80CA30B296E507A00A50F39 /* Build configuration list for PBXNativeTarget "LanAppProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80CA30C296E507A00A50F39 /* Debug */,
+				C80CA30D296E507A00A50F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80CA2D3296E507800A50F39 /* Project object */;
+}
